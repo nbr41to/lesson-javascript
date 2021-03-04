@@ -2,14 +2,14 @@
  * #03 配列
  */
 
-// 配列を定義
+/* 配列の定義 */
 const hairetu = ["文字列1", "文字列2", "文字列3"];
 
 const array = [1, 2, 3];
 
 const colors = ["red", "green", "blue", "yellow", "black", "white", "gray"];
 
-// こう書くと見やすい！
+// こう書くと見やすい
 const users = [
   "ジョニー",
   "ケビン",
