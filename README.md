@@ -1,10 +1,17 @@
-# Lesson JavaScript
+# Lesson JavaScript02
 
-## JavaScript の始め方
+## 変更不可な変数を定義する
 
-CodeSandbox を使う
+const
 
-ちゃんと始める
-VSCode のインストール
-node のインストール
-nodemon のインストール
+## 変更可能な変数を定義する
+
+let
+
+## 変数を Console に表示する
+
+表示するテンプレートリテラル
+
+## 昔の変数宣言の構文
+
+var
