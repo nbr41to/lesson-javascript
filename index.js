@@ -9,7 +9,7 @@ const array = [1, 2, 3];
 
 const colors = ["red", "green", "blue", "yellow", "black", "white", "gray"];
 
-// こう書くと見やすい
+// こう書くと見やすい,重複もOK
 const users = [
   "ジョニー",
   "ケビン",
@@ -17,7 +17,7 @@ const users = [
   "ジョニー",
   "ケビン",
   "スチュアート",
-  "ジョニー"
+  "ジョニー",
 ];
 
 // 配列を呼び出す
@@ -31,7 +31,7 @@ console.log(fruits);
 fruits[3] = "orange"; // 追加
 console.log(fruits);
 
-// 応用
+// 応用 配列の中に配列
 const foods = [
   "rice",
   ["トマト", "きゅうり", "なす", "レタス"],
@@ -39,6 +39,11 @@ const foods = [
 ];
 
 // きゅうりを呼び出す.
+console.log(foods[1][1])
+// riceを呼び出す.
+console.log(foods[0])
+
+// 配列を順番に呼び出す
 
 // 03_？（06後に開放）
 // for (let i = 0; i < colors.length; i++) {
